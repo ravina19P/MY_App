@@ -6,7 +6,7 @@ import Home from './Components/Home/Home';
 import Price from './Components/Pricing/Price';
 import Contact from './Components/Contact/Contact';
 import Features from './Components/Features/Features';
-const LazyHOME = React.lazy(() => import('./Components/Home/Home'))
+const LazyContact = React.lazy(() => import('./Components/Contact/Contact'))
 
 function App() {
   return (
@@ -15,10 +15,9 @@ function App() {
         <Navbar></Navbar>
         <Routes>
           <Route path='/' element={<Home></Home>}></Route>
-          <Route path='/Home' element={<React.Suspense fallback='loading...'><LazyHOME /></React.Suspense>}></Route>
           <Route path='/Features' element={<Features />} />
           <Route path='/Pricing' element={<Price></Price>} />       
-          <Route path='/Contact' element={<Contact></Contact>} />
+          <Route path='/Contact' element={<React.Suspense fallback='loading...'><LazyContact /></React.Suspense>} />
         </Routes>
       </BrowserRouter>
     </div>
@@ -26,3 +25,4 @@ function App() {
 }
 
 export default App;
+
