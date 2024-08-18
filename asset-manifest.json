@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/MY_App/static/css/main.d016163c.css",
+    "main.js": "/MY_App/static/js/main.0a416276.js",
+    "static/js/453.2838e13c.chunk.js": "/MY_App/static/js/453.2838e13c.chunk.js",
+    "static/media/NewHero.svg": "/MY_App/static/media/NewHero.0aa404f637107b5acddbb7cdd633adb2.svg",
+    "static/media/dots.png": "/MY_App/static/media/dots.91cb97bedf2911358a91.png",
+    "static/media/b1y.svg": "/MY_App/static/media/b1y.45f758d896a1616358b29c477d0aca32.svg",
+    "static/media/Navigate.svg": "/MY_App/static/media/Navigate.763f8830be3ce7150b198a53f6e3db9f.svg",
+    "static/media/by3.svg": "/MY_App/static/media/by3.bea0ec8dc07ba62dea3ab68ae7a64e3b.svg",
+    "static/media/by2.svg": "/MY_App/static/media/by2.8ca5548ff1b5d04e248658db948d4808.svg",
+    "static/media/logo.png": "/MY_App/static/media/logo.6bc988bc8808247b91ee.png",
+    "static/media/black-full-logo.svg": "/MY_App/static/media/black-full-logo.192006a970c3c552a4d13075593086f8.svg",
+    "static/media/Logowhite.svg": "/MY_App/static/media/Logowhite.3d5cb160765dd7b3ad13b0c1c8a20f36.svg",
+    "index.html": "/MY_App/index.html",
+    "main.d016163c.css.map": "/MY_App/static/css/main.d016163c.css.map",
+    "main.0a416276.js.map": "/MY_App/static/js/main.0a416276.js.map",
+    "453.2838e13c.chunk.js.map": "/MY_App/static/js/453.2838e13c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d016163c.css",
+    "static/js/main.0a416276.js"
+  ]
+}
